@@ -1,0 +1,24 @@
+.date {
+    font-size:calc(16px + 1.3vw);
+}
+
+.location {
+    font-size:calc(12px + 1.3vw);
+    color: palevioletred;
+}
+
+.tour-row {
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-button {
+    padding: 5%;
+    font-size:calc(12px + 1.3vw);
+}
+
+.theater {
+    color: orangered;
+
+}

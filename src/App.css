@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+#menu-item {
+    margin-right: 8%;
+    font-size:calc(6px + 1.6vw);
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#app-container {
+    background-color: black;
+    color: orangered;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footer-custom {
+    position: relative;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:60px;  
+    margin-top: 50px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    background:black;
+    font-family: 'Ranchers';
+}
+
+.container-custom {
+    background-color: black;
+    font-family: 'Ranchers';
+    width: 100vw;
+    min-height: 100vh;
+    color: orange;
+    text-align: center;
+}
+
+.subheader {
+    margin-top: 30px;
+    font-size:calc(16px + 2.5vw);
+    color: yellow;
+}
+
+.nav-style-custom {
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#band-logo {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
   }
+#band-logo:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#nav-brand-container {
+    margin-right: 21%;
 }

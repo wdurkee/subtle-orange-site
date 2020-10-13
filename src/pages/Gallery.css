@@ -1,0 +1,18 @@
+.gallery-image {
+    height: auto;
+    width: 90%;
+}
+
+.gallery-grid {
+    margin-top: 15px;
+    min-width: 95%;
+}
+
+.gallery-row {
+    margin-top: 20px;
+    min-width: 95%;
+}
+
+.gallery-col {
+
+}

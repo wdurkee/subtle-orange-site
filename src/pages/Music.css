@@ -1,0 +1,28 @@
+.music-icon {
+    max-width: 12%;
+    min-width: 85px;
+    height: auto;
+    margin: 25px 15px;
+}
+.album-icon {
+    max-width: 60%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.album-detail {
+    margin-top: 10px;
+    font-size:calc(12px + 1.2vw);
+    color: orangered;
+}
+.project-grid {
+    color: green;
+}
+
+.anchor-album {
+    transition: all .2s ease-in-out;
+}
+
+.anchor-album:hover {
+    transform: scale(1.1);
+}
