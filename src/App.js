@@ -9,14 +9,19 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import sliceLogo from './images/logo-slice.png';
+import menu from './images/menu-thin-64.png';
+
+
 import Home from './pages/Home'
 import Music from './pages/Music';
 import Store from './pages/Store';
-import TourDates from './pages/TourDates';
+// import TourDates from './pages/TourDates';
 import Contact from './pages/Contact';
 import Press from './pages/Press';
 import Team from './pages/Team';
 import Gallery from './pages/Gallery';
+
 
 
 import Navbar from 'react-bootstrap/Navbar';
@@ -29,16 +34,16 @@ export default function App() {
         <Navbar bg="black" expand="sm">
         <Navbar.Brand id="nav-brand-container" href="/">
           <img
-            src="https://cdn.pixabay.com/photo/2016/02/23/17/42/orange-1218158_1280.png"
-            width="50"
-            height="50"
+            src={sliceLogo}
+            width="100"
+            height="100"
             className="d-inline-block align-top"
             id="band-logo"
             alt="React Bootstrap logo"
           />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <img  src="menu-thin-64.png"  height="40" width="40" alt="" />
+            <img  src={menu} height="40" width="40" alt="" />
             {/* <button className="hamburger hamburger--elastic" type="button">
               <span className="hamburger-box">
                 <span className="hamburger-inner"></span>
@@ -55,7 +60,7 @@ export default function App() {
 
               <NavLink id="menu-item" to="/gallery">Gallery</NavLink>
 
-              <NavLink id="menu-item" to="/tour">Tour</NavLink>
+              {/* <NavLink id="menu-item" to="/tour">Tour</NavLink> */}
 
               <NavLink id="menu-item" to="/team">Team</NavLink>
 
@@ -79,9 +84,9 @@ export default function App() {
           <Route path="/gallery">
             <Gallery />
           </Route>
-          <Route path="/tour">
+          {/* <Route path="/tour">
             <TourDates />
-          </Route>
+          </Route> */}
           <Route path="/team">
             <Team />
           </Route>

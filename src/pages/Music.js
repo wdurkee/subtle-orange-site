@@ -1,5 +1,10 @@
 import React from 'react'
 import './Music.css'
+import spotify from '../images/spotify.png'
+import youtube from '../images/youtube.png'
+import soundcloud from '../images/soundcloud.svg'
+import apple from '../images/apple.png'
+
 import { Container, Row, Col } from 'react-bootstrap'
 
 class Music extends React.Component {
@@ -50,10 +55,10 @@ class Music extends React.Component {
 
                 <h2 className="subheader" >Links</h2>
                 <div>
-                    <a href="https://spotify.com"><img className="music-icon" src="spotify.png" alt="" /></a>
-                    <a href="https://youtube.com"><img className="music-icon" src="youtube.png" alt="" /></a>
-                    <a href="https://apple.com"><img className="music-icon" src="applemusic.png" alt="" /></a>
-                    <a href="https://soundcloud.com"><img className="music-icon" src="soundcloud.svg" alt="" /></a>
+                    <a href="https://spotify.com"><img className="music-icon" src={spotify} alt="" /></a>
+                    <a href="https://youtube.com"><img className="music-icon" src={youtube} alt="" /></a>
+                    <a href="https://apple.com"><img className="music-icon" src={apple} alt="" /></a>
+                    <a href="https://soundcloud.com"><img className="music-icon" src={soundcloud} alt="" /></a>
                 </div>
             </div>
          );

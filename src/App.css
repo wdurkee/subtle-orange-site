@@ -24,17 +24,23 @@
     font-weight: 100;
 }
 
+@font-face {
+    font-family: 'Bauhaus93';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./font/Bauhaus93.ttf');   
+}
+
 html, body {
     height: 100%;
 }
 body {
     background:black;
-    font-family: 'Ranchers';
+    font-family: 'Bauhaus93';
 }
 
 .container-custom {
     background-color: black;
-    font-family: 'Ranchers';
     width: 100vw;
     min-height: 100vh;
     color: orange;
@@ -53,6 +59,8 @@ body {
 }
 
 #band-logo {
+    margin-left: 10%;
+    margin-top: 8%;
     border-radius: 50%;
     -webkit-transition: -webkit-transform .8s ease-in-out;
             transition:         transform .8s ease-in-out;
@@ -65,3 +73,5 @@ body {
 #nav-brand-container {
     margin-right: 21%;
 }
+
+
