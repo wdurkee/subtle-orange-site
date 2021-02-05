@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/subtle-orange-site/precache-manifest.fa8f75cfe1cbeb8e6b39527f4dd5a9c2.js"
+  "/subtle-orange-site/precache-manifest.a3b5603481b0842afcdd43b3546e1807.js"
 );
 
 self.addEventListener('message', (event) => {
