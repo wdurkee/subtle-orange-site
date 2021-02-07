@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/subtle-orange-site/static/css/main.5615c0bf.chunk.css",
-    "main.js": "/subtle-orange-site/static/js/main.8b43577a.chunk.js",
-    "main.js.map": "/subtle-orange-site/static/js/main.8b43577a.chunk.js.map",
-    "runtime-main.js": "/subtle-orange-site/static/js/runtime-main.ebc6f9ba.js",
-    "runtime-main.js.map": "/subtle-orange-site/static/js/runtime-main.ebc6f9ba.js.map",
-    "static/css/2.11829350.chunk.css": "/subtle-orange-site/static/css/2.11829350.chunk.css",
-    "static/js/2.314c963c.chunk.js": "/subtle-orange-site/static/js/2.314c963c.chunk.js",
-    "static/js/2.314c963c.chunk.js.map": "/subtle-orange-site/static/js/2.314c963c.chunk.js.map",
-    "index.html": "/subtle-orange-site/index.html",
-    "precache-manifest.a3b5603481b0842afcdd43b3546e1807.js": "/subtle-orange-site/precache-manifest.a3b5603481b0842afcdd43b3546e1807.js",
-    "service-worker.js": "/subtle-orange-site/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/subtle-orange-site/static/css/2.11829350.chunk.css.map",
-    "static/css/main.5615c0bf.chunk.css.map": "/subtle-orange-site/static/css/main.5615c0bf.chunk.css.map",
-    "static/js/2.314c963c.chunk.js.LICENSE.txt": "/subtle-orange-site/static/js/2.314c963c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/subtle-orange-site/static/media/Bauhaus93.89d11a44.ttf",
-    "static/media/apple.png": "/subtle-orange-site/static/media/apple.9ed24921.png",
-    "static/media/logo-slice.png": "/subtle-orange-site/static/media/logo-slice.45c0e656.png",
-    "static/media/soundcloud.svg": "/subtle-orange-site/static/media/soundcloud.a2aeb3f7.svg",
-    "static/media/spotify.png": "/subtle-orange-site/static/media/spotify.7c13d447.png"
+    "main.css": "/wdurkee/static/css/main.6df77790.chunk.css",
+    "main.js": "/wdurkee/static/js/main.d4d0c9b7.chunk.js",
+    "main.js.map": "/wdurkee/static/js/main.d4d0c9b7.chunk.js.map",
+    "runtime-main.js": "/wdurkee/static/js/runtime-main.bfefff8a.js",
+    "runtime-main.js.map": "/wdurkee/static/js/runtime-main.bfefff8a.js.map",
+    "static/css/2.11829350.chunk.css": "/wdurkee/static/css/2.11829350.chunk.css",
+    "static/js/2.314c963c.chunk.js": "/wdurkee/static/js/2.314c963c.chunk.js",
+    "static/js/2.314c963c.chunk.js.map": "/wdurkee/static/js/2.314c963c.chunk.js.map",
+    "index.html": "/wdurkee/index.html",
+    "precache-manifest.2a521054bcb773417a015aefc00d447c.js": "/wdurkee/precache-manifest.2a521054bcb773417a015aefc00d447c.js",
+    "service-worker.js": "/wdurkee/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/wdurkee/static/css/2.11829350.chunk.css.map",
+    "static/css/main.6df77790.chunk.css.map": "/wdurkee/static/css/main.6df77790.chunk.css.map",
+    "static/js/2.314c963c.chunk.js.LICENSE.txt": "/wdurkee/static/js/2.314c963c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/wdurkee/static/media/Bauhaus93.89d11a44.ttf",
+    "static/media/apple.png": "/wdurkee/static/media/apple.9ed24921.png",
+    "static/media/logo-slice.png": "/wdurkee/static/media/logo-slice.45c0e656.png",
+    "static/media/soundcloud.svg": "/wdurkee/static/media/soundcloud.a2aeb3f7.svg",
+    "static/media/spotify.png": "/wdurkee/static/media/spotify.7c13d447.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ebc6f9ba.js",
+    "static/js/runtime-main.bfefff8a.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.314c963c.chunk.js",
-    "static/css/main.5615c0bf.chunk.css",
-    "static/js/main.8b43577a.chunk.js"
+    "static/css/main.6df77790.chunk.css",
+    "static/js/main.d4d0c9b7.chunk.js"
   ]
 }
