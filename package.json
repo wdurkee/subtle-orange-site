@@ -2,7 +2,7 @@
   "name": "site-template-august",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wdurkee.github.io/subtle-orange-site",
+  "homepage": "http://wdurkee.github.io/wdurkee",
   "dependencies": {
     "@shopify/buy-button-js": "^2.1.7",
     "@testing-library/jest-dom": "^4.2.4",
